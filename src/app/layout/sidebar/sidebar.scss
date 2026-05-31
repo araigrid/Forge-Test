@@ -18,7 +18,7 @@
   width: 2rem;
   height: 2rem;
   border-radius: 0.5rem;
-  background: #2563eb;
+  background: #F97316;
   color: #fff;
   font-weight: 700;
 }
@@ -56,14 +56,21 @@
 
 .sidebar-nav a.active,
 .sidebar-nav a:hover {
-  background: #eff6ff;
-  color: #2563eb;
+  background: #EA580C;
+  color: #fff;
 }
+
+
 
 .badge {
   padding: 0.125rem 0.5rem;
   border-radius: 999px;
-  background: #dbeafe;
-  color: #2563eb;
+  background: #eb9708;
+  color: #fff;
   font-size: 0.75rem;
+}
+.sidebar-nav a:hover .badge,
+.sidebar-nav a.active .badge {
+  background: #fff;
+  color: #EA580C;
 }
